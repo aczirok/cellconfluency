@@ -22,3 +22,15 @@ edit area.make, then
 ```
 	make AREA	
 ```
+See example folder:
+* AF-GAMMA: images to be analyzed
+* makefiles: location of area.make
+* image_proc: output
+* segment_thr: standard deviation threshold
+* to run:
+```
+cd example
+rm -rf image_proc segment_thr
+cd makefiles
+make AREA
+```
