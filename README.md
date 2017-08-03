@@ -20,7 +20,7 @@
 ### to process time lapse experiment
 edit area.make, then 
 ```
-	make AREA	
+	make -f area.make AREA	
 ```
 See example folder:
 * AF-GAMMA: images to be analyzed
